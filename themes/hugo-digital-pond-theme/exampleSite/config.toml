@@ -1,0 +1,109 @@
+baseURL = "https://www.davidbuehler.de"
+title = "BHLR"
+theme = "hugo-digital-pond-theme"
+themesdir = "../../"
+copyright = "David Bühler ©"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    name = "Welcome!"
+    description = "Blogs, projects and other stuff I do."
+    weight = 1
+  [languages.de]
+    languageName = "Deutsch"
+    name = "Hi!"
+    description = "Blogs, Projekte und andere Sachen, die ich so mache."
+    weight = 2
+
+
+
+[params]
+  initials = "BHLR"
+  googleAnalytics = ""
+
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/daveiator"
+    icon = "fab fa-github"
+
+  [[params.social]]
+    name = "Mastodon"
+    link = "https://mastodon.social/@daveiator"
+    icon = "fab fa-mastodon"
+
+  [[params.social]]
+    name = "Instagram"
+    link = "https://www.instagram.com/david_bhlr/"
+    icon = "fab fa-instagram"
+
+  [[params.social]]
+  name = "Email"
+  link = "mailto: david@buehler-online.de"
+  icon = "fas fa-at"
+
+  [[params.social]]
+    name = "RSS"
+    link = "/index.xml"
+    icon = "fas fa-rss"
+
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = "Pond"
+    url = "/pond/"
+    weight = 1
+  [[languages.en.menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[languages.en.menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[languages.de.menu]
+  [[languages.de.menu.main]]
+    name = "Pond"
+    url = "/pond/"
+    weight = 1
+  [[languages.de.menu.main]]
+    name = "Projekte"
+    url = "/projects/"
+    weight = 2
+  [[languages.de.menu.main]]
+    name = "Über mich"
+    url = "/about/"
+    weight = 3
+  [[languages.de.menu.main]]
+    name = "Kontakt"
+    url = "/contact/"
+    weight = 4
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'

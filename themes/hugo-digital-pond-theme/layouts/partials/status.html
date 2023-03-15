@@ -1,0 +1,11 @@
+{{ with .Params.status }}
+    {{ if eq "fish" . }}
+    <span class="status">🐟</span>
+    {{ else if eq "dolphin" . }}
+    <span class="status">🐬</span>
+    {{ else if eq "whale" . }}
+    <span class="status">🐋</span>
+    {{ else if eq "whaleplus" . }}
+    <span class="status">🐳</span>
+    {{ end }}
+{{ end }}

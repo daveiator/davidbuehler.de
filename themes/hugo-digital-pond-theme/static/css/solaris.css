@@ -1,0 +1,10 @@
+html {
+    --blue: #268bd2 !important;
+    --lighter-blue: #9ed7ff !important;
+    --yellow: #b58900 !important;
+    --red: #dc322f !important;
+    --grey: #586e75 !important;
+    --foreground_color: #002b36 !important;
+    --background_color: #fdf6e3 !important;
+    --background_color_off: #eee8d5 !important;
+}
