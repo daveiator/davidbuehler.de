@@ -1,16 +1,16 @@
 ---
 title: "David Bühler"
-summary: "For ideas, questions, or just to say hello, please feel free contact me."
+summary: "Bei Fragen, Anregungen oder einfach nur um Hallo zu sagen, kannst du mich gerne kontaktieren."
 layout: contact
 ---
 
-# Contact-Information:
-#### Address
+# Kontakt:
+#### Addresse
 Ruhesteinstrasse 133\
 77883 Ottenhöfen im Schwarzwald\
-Germany
+Deutschland
 
-#### Phone
+#### Telefon
 +49 0176 45694358
 #### Email
 david@buehler-online.de
