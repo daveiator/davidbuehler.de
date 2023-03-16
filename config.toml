@@ -23,6 +23,7 @@ defaultContentLanguage = "en"
 
 [params]
   initials = "BHLR"
+  logo = "/img/logo.svg"
   googleAnalytics = ""
 
   [[params.social]]
