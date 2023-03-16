@@ -22,12 +22,11 @@
     <div class="row justify-content-center mb-5">
         <div class="col-12">
             <p class="card-date m-0">
-                {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-                {{ with .Date }}
-                    📅 Created {{ .Format $dateFormat }} - 
-                {{ end }}
-                🔁Last updated: {{ .Lastmod.Format $dateFormat }} -
-                ☕ Reading time: {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}
+
+                📅 {{ i18n "created" }}: {{ .Date | time.Format ":date_medium" }} - 
+
+                🔁 {{ i18n "modified" }}: {{ .Lastmod | time.Format ":date_medium" }} -
+                ☕ {{ i18n "reading_time" }}: {{ i18n "minutes" .ReadingTime}}
             </p>
             <hr class="dropdown-divider">
             <div class="row justify-content-between">

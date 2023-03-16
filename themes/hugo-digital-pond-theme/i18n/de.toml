@@ -1,0 +1,11 @@
+[created]
+    other = "Erstellt"
+[modified]
+    other = "Zuletzt geändert"
+[reading_time]
+    other = "Lesezeit"
+
+
+[minutes]
+    one = "{{ .Count }} Minute"
+    other = "{{ .Count }} Minuten"
