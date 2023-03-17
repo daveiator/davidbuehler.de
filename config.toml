@@ -1,5 +1,5 @@
 # baseURL = "https://www.davidbuehler.de"
-title = "BHLR"
+title = "davidbuehler.de"
 theme = "hugo-digital-pond-theme"
 themesdir = "themes"
 copyright = "David Bühler ©"
@@ -24,6 +24,7 @@ defaultContentLanguage = "en"
 [params]
   initials = "BHLR"
   logo = "/img/logo.svg"
+  favicon = "/img/favicon.svg"
   googleAnalytics = ""
 
   [[params.social]]
