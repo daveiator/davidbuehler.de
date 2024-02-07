@@ -10,7 +10,5 @@ Ruhesteinstrasse 133\
 77883 Ottenhöfen im Schwarzwald\
 Deutschland
 
-#### Telefon
-+49 0176 45694358
 #### Email
-david@buehler-online.de
+david [hier kommt das @ Symbol rein] buehler-online.de

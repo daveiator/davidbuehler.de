@@ -2,7 +2,7 @@
 title: "DIY DMX-Interface"
 date: 2023-03-16
 draft: false
-project_tags: ["hardware"]
+project_tags: ["hardware", "how-to"]
 summary: "Für unter 10€ ein DMX-Interface bauen"
 links:
     repo:

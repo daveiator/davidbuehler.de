@@ -2,7 +2,7 @@
 title: "DIY DMX-Interface"
 date: 2023-03-16
 draft: false
-project_tags: ["hardware"]
+project_tags: ["hardware", "how-to"]
 summary: "Building a open source DMX-Interface"
 links:
     repo:

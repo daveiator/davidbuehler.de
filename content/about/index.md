@@ -1,13 +1,10 @@
 ---
-title: "Nigalya Ponya"
-date: 2015-01-01
-summary: "Himalayan red panda"
+title: "About me"
+date: 2023-01-01
+summary: "What I do"
 layout: about
 ---
 
-I have a reddish-brown fur, a long, shaggy tail, and a waddling gait due to my shorter front legs; I'm roughly the size of a domestic cat, though with a longer body.
-I live in trees and feed mainly on bamboo, but I also eat eggs, birds, and insects.
+Hi, I'm David, 20 and currently studying mgp at HS-Offenburg.
 
-I joined the IUCN Endangered species red list in 2008 as a result of a constant population decline caused by habitat loss, poaching and inbreed depression.
-
-For more information, you can take a look at my [Wikipedia page](https://en.wikipedia.org/wiki/Red_panda_)
+In addition to VFX and CGI, I am also interested in computer science, development and design.

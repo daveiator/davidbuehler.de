@@ -44,7 +44,7 @@ defaultContentLanguage = "en"
 
   [[params.social]]
   name = "Email"
-  link = "mailto: david@buehler-online.de"
+  link = "mailto: david [here goes the funny @ symbol] buehler-online.de"
   icon = "fas fa-at"
 
   [[params.social]]
