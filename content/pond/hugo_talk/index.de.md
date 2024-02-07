@@ -27,12 +27,12 @@ David Bühler mgp4 190035
 11. [Fazit](#fazit)
 
 ### Der Drang zur eigenen Website
-Heutzutage ist es ein Muss eine eigene Web Präsenz zu haben. Zumindest heißt es das ständig in zahlreichen Sponsorsegmenten auf YouTube oder anderen Social-Media-Plattformen, in welchen von simplen Website-Baukästen geschwärmt wird, mit denen man aus vorgefertigten Bausteinen seine eigene Website zusammenklicken kann. Und das nur für ein *paar* Euro im Monat!
+Heutzutage ist es ein Muss eine eigene Web Präsenz zu haben. Zumindest heißt es das ständig in zahlreichen Sponsor Segmenten auf YouTube oder anderen Social-Media-Plattformen, in welchen von simplen Website-Baukästen geschwärmt wird, mit denen man aus vorgefertigten Bausteinen seine eigene Website zusammenklicken kann. Und dass nur für ein *paar* Euro im Monat!
 
-Doch auch wenn wir noch lange nicht an diesem Punkt angelangt sind, so ist sie für viele notwendig um ihre Fähigkeiten, Podukte oder Dienstleistungen zu präsentieren und damit zu werben. Und so ähnlich war das auch bei mir. In diesem Artikel möchte ich daher meine Erfahrungen und Vorgehensweisen teilen, die ich beim Aufbau dieser Website erlernt habe.
+Doch auch wenn wir noch lange nicht an diesem Punkt angelangt sind, so ist sie für viele notwendig um ihre Fähigkeiten, Produkte oder Dienstleistungen zu präsentieren und damit zu werben. Und so ähnlich war das auch bei mir. In diesem Artikel möchte ich daher meine Erfahrungen und Vorgehensweisen teilen, die ich beim Aufbau dieser Website erlernt habe.
 
 ### Anforderungen
-Jeder benutzt seine Website anderst. Manche wollen nur eine Visitenkarte von sich im Internet, andere wollen ihr Porfolio präsentieren und wiederum andere denken sie könnten die nächste große Social-Media-Plattform über Wordpress aufbauen.
+Jeder benutzt seine Website anders. Manche wollen nur eine Visitenkarte von sich im Internet, andere wollen ihr Portfolio präsentieren und wiederum andere denken sie könnten die nächste große Social-Media-Plattform über WordPress aufbauen.
 
 Wie dem auch sei, das Hauptziel meiner Website war es jedenfalls, eine Plattform zu haben, auf der ich einen Blog führen und meine Projekte archivieren kann. Das Design sollte modern, minimalistisch und einladend wirken und auf allen Geräten gleich aussehen.
 
@@ -49,9 +49,9 @@ Da ich mich aber auch gerne mit der Technik dahinter auseinandersetzen wollte, h
 ### Die Suche nach dem richtigen CMS
 Wer selbst schon mal nach Content-Management-Systemen zum Aufsetzen einer eigenen Website recherchiert hat, wird schnell festgestellt haben, dass die meisten Angebote auf dynamischen Websites basieren. Dies bedeutet, dass die Inhalte der Website erst beim Aufrufen der Seite von einem Server aus Datenbanken geladen und dann dynamisch generiert werden.
 
-Dies ist zwar in manchen Anwendungsfällen ganz toll, allerdings aber auch teuer. Denn um eine dynamische Website zu betreiben muss jederzeit im Hintergrund ein Server laufen, der die Datenbanken verwaltet und die Seiten generiert. Diesen kann man entweder selbst betreiben, was mit zusätzlichen Kosten für Hardware und Strom verbunden ist, oder über einen Provider welcher für einen monatlichen Betrag die Server bereitstellt.
+Dies ist zwar in manchen Anwendungsfällen ganz toll, allerdings aber auch teuer. Denn um eine dynamische Website zu betreiben, muss jederzeit im Hintergrund ein Server laufen, der die Datenbanken verwaltet und die Seiten generiert. Diesen kann man entweder selbst betreiben, was mit zusätzlichen Kosten für Hardware und Strom verbunden ist, oder über einen Provider welcher für einen monatlichen Betrag die Server bereitstellt.
 
-Die Alternative dazu sind statische Websites. Wie auch schon bei den ersten Websites, sind hier bereits alle Inhalte in HTML-Dateien vorbereitet und müssen nur noch ausgeliefert werden. Dies ist nicht nur kostengünstiger, sondern auch schneller und simpler. Doch dieses System kommt mit einem anderen Nachteil. Anderst wie früher hat nämlich heutzutage niemand mehr Lust, HTML-Dateinen von Hand zu schreiben. Stattdessen gibt es hierfür Static-Site-Generatoren, welche den Content in seiner Rohform in fertige HTML-Websites rendern. 
+Die Alternative dazu sind statische Websites. Wie auch schon bei den ersten Websites, sind hier bereits alle Inhalte in HTML-Dateien vorbereitet und müssen nur noch ausgeliefert werden. Dies ist nicht nur kostengünstiger, sondern auch schneller und simpler. Doch dieses System kommt mit einem anderen Nachteil. Anders als früher hat nämlich heutzutage niemand mehr Lust, HTML-Dateien von Hand zu schreiben. Stattdessen gibt es hierfür Static-Site-Generatoren, welche den Content in seiner Rohform in fertige HTML-Websites rendern. 
 
 
 <a href="https://gohugo.io/">
@@ -61,7 +61,7 @@ Die Alternative dazu sind statische Websites. Wie auch schon bei den ersten Webs
 </a>
 
 
-Einer dieser Generatoren ist [Hugo](https://gohugo.io/), welcher mich mit seiner Einfachkeit und Geschwindigkeit überzeugt hat. Mit ihm werden Artikel in **Markdown-Dateien** (.txt-Dateinen mit Rich-Text-Formatierung) geschrieben und dann von HUGO in HTML-Templates eingespeißt. Hierfür wird auch keine Datenbank benötigt, da das Layout der Seite durch die Ordnerstruktur definiert wird.
+Einer dieser Generatoren ist [Hugo](https://gohugo.io/), welcher mich mit seiner Einfachheit und Geschwindigkeit überzeugt hat. Mit ihm werden Artikel in **Markdown-Dateien** (.txt-Dateien mit Rich-Text-Formatierung) geschrieben und dann von HUGO in HTML-Templates eingespeist. Hierfür wird auch keine Datenbank benötigt, da das Layout der Seite durch die Ordnerstruktur definiert wird.
 
 
 ### Zugriffskontrolle über Github
@@ -69,17 +69,17 @@ Wem bei der Vorstellung, einen Ordner mit Dateien, statt einer Datenbank zu verw
 
 Stattdessen wird der Content in einem **Git-Repository verwaltet**. Git ist ein [Versionskontrollsystem](https://git-scm.com/about) welches es ermöglicht, Änderungen an Dateien in einem Ordner (Repository) zu verfolgen. Hierbei kann ein Benutzer geänderte Dateien in einem **Commit** in der Versions-Timeline festhalten.
 
-Dies ermöglicht es, dass mehrere Benutzer gleichzeitig an einem Projekt arbeiten, ohne dass sich ihre Änderungen in die Quere kommen. Dazu wird allerdings ein Git-Server benötigt, welcher die Repositories und ihre Änderungen verwaltet. Hierfür gibt es auch Möglichkeiten zum Self-Hosting, zum Beispiel mit [Gitea](https://about.gitea.com/products/gitea). Die jedoch einfachste und weitverbreiteste Plattform ist [Github](https://github.com) von Microsoft. Github richtet sich hauptsächlich an Developer, aber lässt sich für unsere Zwecke auch perfekt als Zugriffskontrolle für Content auf unserer Website verwenden. Außerdem bietet Github auch noch weitere nützliche Features welche man zum Bau einer statischen Website braucht.
+Dies ermöglicht es, dass mehrere Benutzer gleichzeitig an einem Projekt arbeiten, ohne dass sich ihre Änderungen in die Quere kommen. Dazu wird allerdings ein Git-Server benötigt, welcher die Repositories und ihre Änderungen verwaltet. Hierfür gibt es auch Möglichkeiten zum Self-Hosting, zum Beispiel mit [Gitea](https://about.gitea.com/products/gitea). Die jedoch einfachste und weitverbreitetste Plattform ist [Github](https://github.com) von Microsoft. Github richtet sich hauptsächlich an Developer, aber lässt sich für unsere Zwecke auch perfekt als Zugriffskontrolle für Content auf unserer Website verwenden. Außerdem bietet Github auch noch weitere nützliche Features welche man zum Bau einer statischen Website braucht.
 
 ### Continuous Integration und Gratis-Hosting
-[Github-Actions](https://github.com/features/actions) ist ein Feature von Github, welches es ermöglicht, automatisierte Workflows zu erstellen. So können zum Beispiel beim Registrieren eines Commits automatisch Tests durchgeführt werden. Diese Workflows kann man sich entweder selbst zusammen basteln oder bereits existierende von anderen Usern benutzen.
+[Github-Actions](https://github.com/features/actions) ist ein Feature von Github, welches es ermöglicht, automatisierte Workflows zu erstellen. So können zum Beispiel beim Registrieren eines Commits automatisch Tests durchgeführt werden. Diese Workflows kann man sich entweder selbst zusammenbasteln oder bereits existierende von anderen Usern benutzen.
 Für uns kommt vor allem eine in Frage und das ist die **"Deploy Hugo Site to Pages"-Action**. Diese rendert unsere Website in der Cloud und stellt sie dann auf **Github-Pages** zur Verfügung. Github-Pages ist ein weiteres Feature von Github, welches uns statische Websites, auch mit der eigenen Domain, gratis hosten lässt.
 
-Wer jetzt denkt, dass das zu gut ist um wahr zu sein, der kann sich an den jetzt folgenen Einschränkungen erfreuen: Github-Actions ist auf 2000 Minuten pro Monat begrenzt, was allerdings für uns total irrelevant ist, da ein Deployment circa eine Minute braucht und man wohl kaum 2000 Änderungen im Monat schafft. Github-Pages erlaubt auch nur das Hosten von öffentlich zugänglichen Repositories, was bedeutet, dass jeder den Source-Content der Website einsehen kann. Wen das stört, der kann als Student gratis auf **Github-Pro** umsteigen, um das Repository privat zu stellen.
+Wer jetzt denkt, dass das zu gut ist um wahr zu sein, der kann sich an den jetzt folgenden Einschränkungen erfreuen: Github-Actions ist auf 2000 Minuten pro Monat begrenzt, was allerdings für uns total irrelevant ist, da ein Deployment circa eine Minute braucht und man wohl kaum 2000 Änderungen im Monat schafft. Github-Pages erlaubt auch nur das Hosten von öffentlich zugänglichen Repositories, was bedeutet, dass jeder den Source-Content der Website einsehen kann. Wen das stört, der kann als Student gratis auf **Github-Pro** umsteigen, um das Repository privat zu stellen.
 Aber auch damit ist diese Art zu Hosten noch immer die beste Gratis-Option, die ich kenne.
 
 ### Einrichtung
-Nachdem man **Git** und **Hugo**, welches übrigens beides Tools für die Command-Line sind, auf seinem PC installiert hat kann es auch schon losgehen. Der Befehl `hugo new site <name>` erstellt die grundlegende Ordnerstruktur für die Website:
+Nachdem man **Git** und **Hugo**, welche übrigens beide Tools für die Command-Line sind, auf seinem PC installiert hat kann es auch schon losgehen. Der Befehl `hugo new site <name>` erstellt die grundlegende Ordnerstruktur für die Website:
 
 <img src="default_folder.png" alt="Ordnerstruktur" style="display: block; margin-left: auto; margin-right: auto;"/>
 
@@ -92,7 +92,7 @@ Der Markdown-Code für diesen Artikel sieht zum Beispiel so aus:
 ```markdown
 
 ### Einrichtung
-Nachdem man **Git** und **Hugo**, welches übrigens beides Tools für die Command-Line sind,
+Nachdem man **Git** und **Hugo**, welche übrigens beide Tools für die Command-Line sind,
 auf seinem PC installiert hat kann es auch schon losgehen.
 Der Befehl `hugo new site <name>` erstellt die grundlegende Ordnerstruktur für die Website:
 
@@ -108,9 +108,9 @@ gestartet werden, welcher alle Änderungen live innerhalb von wenigen Millisekun
  
 ```
 
-Im **`themes`-Ordner** kann man von anderen Usern erstellte Designs einbinden. Diese überschreiben dann die Default-Designs des **`layouts`-Ordners**. Ich habe für meine Website eine selbst abgewandelte Version des [Digital Garden Theme for Hugo](https://themes.gohugo.io/themes/hugo-digital-garden-theme/) benutzt. Ich habe einige Module die ich nicht gebraucht habe entfernt, eine dritte Ansicht neben Light- und Dark-Mode hinzugefügt und den HTML-Code für Multilingual-Support selbst hinzu gefügt.
+Im **`themes`-Ordner** kann man von anderen Usern erstellte Designs einbinden. Diese überschreiben dann die Default-Designs des **`layouts`-Ordners**. Ich habe für meine Website eine selbst abgewandelte Version des [Digital Garden Theme for Hugo](https://themes.gohugo.io/themes/hugo-digital-garden-theme/) benutzt. Ich habe einige Module, die ich nicht gebraucht habe entfernt, eine dritte Ansicht neben Light- und Dark-Mode hinzugefügt und den HTML-Code für Multilingual-Support selbst hinzu gefügt.
 
-Beim designen der Layouts gibt es außerdem noch viele Hilfsfunktionen und Variablen welche Einfluss auf die gerenderte Seite nehmen können. Als Beispiel ist hier das komplette Layout für die Überschrift von Artikeln wie diesem:
+Beim Designen der Layouts gibt es außerdem noch viele Hilfsfunktionen und Variablen welche Einfluss auf die gerenderte Seite nehmen können. Als Beispiel ist hier das komplette Layout für die Überschrift von Artikeln wie diesem:
 ```html
 {{ .Scratch.Set "garden_tags_list" ""}}
 {{ range .Params.garden_tags }}
@@ -169,7 +169,7 @@ artikel
 
 ```
 
-Bilder und Videos können dann entweder über Markdown oder HTML eingebunden werden ohne mit einem langen Pfadnamen hantieren zu müssen:
+Bilder und Videos können dann entweder über Markdown oder HTML eingebunden werden, ohne mit einem langen Pfadnamen hantieren zu müssen:
 ```markdown
 ![Bild1](bild1.jpg)
 
@@ -185,7 +185,7 @@ Auch wenn man mit einer statischen Website viel erreichen kann, so hat aber auch
 
 Doch wer jetzt denkt, damit sei es vorbei, der irrt sich. Statt sich mit den Hürden und Sicherheitsrichtlinien, welche mit der eigenen Benutzerverwaltung kommen, auseinanderzusetzen, kann man stattdessen das Gleiche machen, was wir auch bei dem Hosting angewendet haben:
 
-[Utterances](https://utteranc.es/) ist ein Open-Source Kommentar-Widget, welches auf Github-Issues basiert. Nutzer können sich nun auf unserer Website mit ihrem Github-Account anmelden und Kommentare hinterlassen. Diese werden dann in unserem bereits existierenden oder in einem neuen Repository gespeichert und können von uns durch Github moderiert werden. Dieser Ansatz ist nicht schwer umzusetzen, aber ich habe mich allgemein gegen Kommentare auf meiner Website entschieden, da ich sie nicht für nötig halte. [Hier](https://github.com/topics/utterances) sind einige Beispiele von anderen Nutzern, die Utterances auf ihrer HUGO Website benutzen.
+[Utterances](https://utteranc.es/) ist ein Open-Source Kommentar-Widget, welches auf Github-Issues basiert. Nutzer können sich nun auf unserer Website mit ihrem Github-Account anmelden und Kommentare hinterlassen. Diese werden dann in unserem bereits existierenden oder in einem neuen Repository gespeichert und können von uns durch Github moderiert werden. Dieser Ansatz ist nicht schwer umzusetzen, aber ich habe mich allgemein gegen Kommentare auf meiner Website entschieden, da ich sie nicht für nötig halte. [Hier](https://github.com/topics/utterances) sind einige Beispiele von anderen Nutzern, die Utterances auf ihrer Hugo-Website benutzen.
 ```html
 <script src="https://utteranc.es/client.js"
         repo="user/repo"
@@ -195,7 +195,7 @@ Doch wer jetzt denkt, damit sei es vorbei, der irrt sich. Statt sich mit den Hü
         async>
 </script>
 ```
-###### Dies ist der gesamte Code welcher die Kommentarfunktion ermöglicht.
+###### Dies ist der gesamte Code, welcher die Kommentarfunktion ermöglicht.
 
 👉<button id="comment-button" class="btn btn-secondary">Kommentare hier aktivieren!</button>👈
 <p id="scripttmp"></p>
@@ -214,7 +214,7 @@ Doch wer jetzt denkt, damit sei es vorbei, der irrt sich. Statt sich mit den Hü
 </script>
 <br>
 
-Ein ähnliches Szenario gibt es bei Online-Shops. Hier kämen nur externe Dienste wie [Paypal](https://developer.paypal.com/docs/checkout/) oder [Stripe](https://stripe.com/docs/payments/checkout) in Frage. Wobei ich finde, dass wenn man Geld mit der eigenen Website verdient, auch ein paar Euro für einen Shopify-Shop oder ein anderes E-Commerce-System inversieren sollte.
+Ein ähnliches Szenario gibt es bei Online-Shops. Hier kämen nur externe Dienste wie [Paypal](https://developer.paypal.com/docs/checkout/) oder [Stripe](https://stripe.com/docs/payments/checkout) in Frage. Wobei ich finde, dass wenn man Geld mit der eigenen Website verdient, auch ein paar Euro für einen Shopify-Shop oder ein anderes E-Commerce-System invertieren sollte.
 
 Ein weiteres gutes Beispiel für Dynamik auf der Website ist die <a href="{{< ref path="projects">}}">Tag- und Kategorien-Suche</a>. Diese benutzt Hugos [Taxonomy-Feature](https://gohugo.io/content-management/taxonomies/) und kann mit ein paar Zeilen HTML und CSS in die Website eingebunden werden. Es ist zwar nicht möglich nur die Artikel einer Kategorie zu requesten, aber es ist möglich die Kategorien in einer Liste anzuzeigen und dann die Artikel mit dem entsprechenden Tag zu filtern.
 
@@ -225,7 +225,7 @@ Die Responsiveness der Website hängt am Ende von der CSS-Gestaltung ab. Ich ben
 Ich habe mich gegen das strikte Trennen von Desktop- und Mobile-Design entschieden, da ich auf beiden Plattformen den gleichen Content habe und stattdessen ein fließendes Design, welches sich an die Bildschirmgröße anpasst, implementiert. Für dieses sind Flex-Boxen und Grids sehr nützlich.
 
 ### Fazit
-Ich war übberrascht wie einfach es war, eine eigene Website mit HUGO zu erstellen und zu hosten. Die Dokumentation war sehr ausführlich und es gibt viele Themes und Tutorials im Internet. Auch die Einbindung von Medien und die Anpassung des Designs war einfacher als ich dachte, vorallem da es rein ohne GUI und nur mit der Command-Line funktioniert.
+Ich war überrascht wie einfach es war, eine eigene Website mit HUGO zu erstellen und zu hosten. Die Dokumentation war sehr ausführlich und es gibt viele Themes und Tutorials im Internet. Auch die Einbindung von Medien und die Anpassung des Designs war einfacher als ich dachte, vor allem da es rein ohne GUI und nur mit der Command-Line funktioniert.
 
 Also,
 
@@ -239,7 +239,7 @@ Wer sich ein bisschen mit der Technik dahinter auseinandersetzen will und keine 
 
 Für mich war es auf jeden Fall eine sehr lehrreiche Erfahrung, und ich hoffe, das Grundgerüst meiner Website noch für eine Weile mit Beiträgen füllen zu können. Der nächste Schritt ist wird es sein, genug Bilder und Videos zu sammeln, um eine Galerie zu erstellen. Und wer weiß, vielleicht schalte ich ja auch bald ein paar Kommentare auf meiner Website an.
 
-Ich bin gespannt was die Zukunft bringt, und bin mit Hugo auf jeden Fall auch mal bereit in einen neuen Bereich auf meiner Website vorzustoßen.
+Ich bin gespannt, was die Zukunft bringt, und bin mit Hugo auf jeden Fall auch mal bereit in einen neuen Bereich auf meiner Website vorzustoßen.
 
 <br>
 
